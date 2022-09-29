@@ -1,5 +1,6 @@
 * {
-    font-family: Raleway;
+    font-family: 'Raleway';
+    /* les couleurs */
     --main-color: #0065FC;
     --secondary-color: #DEEBFF;
     --grey-color: #D9D9D9;
@@ -45,6 +46,7 @@ header nav ul li{
     list-style-type: none;
     flex-direction: row;
     padding-top: 46px;
+    padding-bottom: 13px;
     padding-left: 21px;
     padding-right: 21px;
     margin-left: 25px;
