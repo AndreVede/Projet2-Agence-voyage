@@ -87,6 +87,37 @@ main {
     font-size: 18px;
     line-height: 21px;
 }
+.input-search {
+    display: flex;
+    flex-direction: row;
+}
 .input-search button {
     text-align: center;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    gap: 10px;
+    border: 1px solid var(--main-color);
+    border-radius: 0px 15px 15px 0px;
+    height: 49px;
+}
+.input-search button span.not-mobile {
+    font-size: 18px;
+    color: white;
+    margin: 14px 16px 14px 16px;
+    padding: 0;
+}
+.input-search button span.mobile {
+    font-size: 18px;
+    color: white;
+    margin: 16px 16px 16px 16px;
+    padding: 0;
+}
+.input-search input {
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    height: 49px;
 }
