@@ -64,3 +64,29 @@ header nav ul li a {
 header nav ul li:hover a {
     color: var(--main-color);
 }
+
+.logo-booki {
+    margin-left: 55px;
+    margin-top: 44px;
+}
+
+/* Main */
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+/* section search */
+.title-search * {
+    margin: 8px;
+}
+.input-search *{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.input-search button {
+    text-align: center;
+}
