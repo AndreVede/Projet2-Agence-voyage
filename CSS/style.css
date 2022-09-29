@@ -101,7 +101,8 @@ main {
     gap: 10px;
     border: 1px solid var(--main-color);
     border-radius: 0px 15px 15px 0px;
-    height: 49px;
+    height: 53px;
+    transform: translateX(-50px);
 }
 .input-search button span.not-mobile {
     font-size: 18px;
@@ -120,4 +121,21 @@ main {
     border: 1px solid #F2F2F2;
     border-radius: 15px;
     height: 49px;
+    width: 334px;
+    padding-left: 66px;
+}
+.input-search .before-input {
+    background: #F2F2F2;
+    height: 51px;
+    width: 50px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transform: translateX(48px);
+    font-size: 18px;
+}
+.input-search .before-input i {
+    padding: 16px 16px 16px 16px;
 }
