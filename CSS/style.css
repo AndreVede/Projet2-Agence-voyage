@@ -125,6 +125,7 @@ main {
     border-radius: 0px 15px 15px 0px;
     height: 49px;
     transform: translateX(-50px);
+    cursor: pointer;
 }
 .input-search button span.not-mobile {
     font-size: 18px;
@@ -186,6 +187,7 @@ main {
     line-height: 19px;
     font-size: 18px;
     margin: 0;
+    margin-right: 12px;
 }
 .filters li {
     list-style-type: none;
@@ -196,6 +198,7 @@ main {
     border: var(--grey-color) solid 2px;
     border-radius: 25px;
     margin-left: 36px;
+    cursor: pointer;
 }
 .filters li.filter i {
     color: var(--main-color);
