@@ -19,6 +19,15 @@ body {
     font-size: 16px;
     line-height: 19px;
 }
+.card-info {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
 .title-section {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -265,11 +274,17 @@ main {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: baseline;
 }
 .content-accommodations-City {
     margin-top: 42px;
-    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 23px;
 }
 .content-accommodations-City h1 {
     margin: 0;
@@ -283,4 +298,54 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 31px;
+}
+/* Cartes d'hébergements */
+.accommodation-card {
+    margin: 0;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 199px;
+    width: 246px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;   
+}
+.accommodation-card img {
+    height: 114px;
+    width: 236px;
+    object-fit: cover;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+}
+.accommodation-card .text-card {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-left: 16px;
+    margin-bottom: 11px;
+}
+.accommodation-card .evaluation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.accommodation-card .evaluation i {
+    font-size: 12px;
+    margin-right: 2px;
+    padding: 0;
+}
+.accommodation-card .evaluation i.like {
+    color: var(--main-color);
+}
+.accommodation-card .evaluation i.dislike {
+    color: var(--secondary-grey-color);
 }
