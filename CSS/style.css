@@ -129,15 +129,17 @@ main {
     margin: 16px 16px 16px 16px;
     padding: 0;
 }
-.input-search input {
+.input-search input, .input-search input:focus{
     background-color: white;
     border: 1px solid #F2F2F2;
+    outline: 1px solid #F2F2F2;
     border-radius: 15px;
-    height: 45px;
+    height: 49px;
     width: 334px;
     padding-left: 66px;
 }
 .input-search .before-input {
+    --decalage: 47px;
     background: #F2F2F2;
     height: 47px;
     width: 50px;
@@ -146,8 +148,8 @@ main {
     display: flex;
     align-items: center;
     text-align: center;
-    transform: translateX(48px);
-    margin-left: -48px;
+    transform: translateX(var(--decalage));
+    margin-left: - var(--decalage);
     font-size: 18px;
 }
 .input-search .before-input i {
