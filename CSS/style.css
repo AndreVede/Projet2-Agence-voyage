@@ -314,7 +314,10 @@ main {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
-    align-content: flex-start;   
+    align-content: flex-start;
+    
+    /* ombre */
+    box-shadow: 3px 3px 15px 3px var(--grey-color);
 }
 .accommodation-card img {
     height: 114px;
