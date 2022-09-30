@@ -266,7 +266,17 @@ main {
 
 /* Contenu de la recherche */
 /* accomodations */
+.accommodations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2.98507463%;
+}
 .accommodations-City {
+    width: 65.67164179%;
+
     background-color: var(--secondary-grey-color);
     border-radius: 20px;
     margin: 0;
@@ -351,4 +361,10 @@ main {
 }
 .accommodation-card .evaluation i.dislike {
     color: var(--secondary-grey-color);
+}
+
+.popular-accomodations {
+    width: 31.34328358%;
+    border-radius: 20px;
+    background-color: var(--secondary-grey-color);
 }
