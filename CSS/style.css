@@ -139,7 +139,6 @@ main {
     padding-left: 66px;
 }
 .input-search .before-input {
-    --decalage: 47px;
     background: #F2F2F2;
     height: 47px;
     width: 50px;
@@ -148,8 +147,8 @@ main {
     display: flex;
     align-items: center;
     text-align: center;
-    transform: translateX(var(--decalage));
-    margin-left: - var(--decalage);
+    transform: translateX(47px);
+    margin-left: -47px;
     font-size: 18px;
 }
 .input-search .before-input i {
