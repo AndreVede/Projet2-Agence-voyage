@@ -99,9 +99,13 @@ header nav ul li:hover a {
     color: var(--main-color);
 }
 
-.logo-booki {
+.logo-booki img {
     margin-left: 55px;
     margin-top: 44px;
+    height: 19px;
+    width: 61.09px;
+    object-fit: contain;
+
 }
 
 /* Main */
@@ -310,7 +314,7 @@ main {
     gap: 23px;
     width: 90.90909091%;
 }
-.content-accommodations-City h1 {
+.content-accommodations-City h2 {
     margin: 0;
     align-self: flex-start;
     width: 100%;
@@ -354,6 +358,11 @@ main {
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
     margin: 0;
+}
+.accommodation-card h3 {
+    margin: 0;
+    align-self: flex-start;
+    width: 100%;
 }
 .accommodation-card .card-info {
     margin: 0;
@@ -459,7 +468,7 @@ main {
     /* ombre */
     box-shadow: 3px 3px 15px 3px var(--grey-color);
 }
-.popular-card h1 {
+.popular-card h3 {
     margin: 0;
     align-self: flex-start;
     width: 100%;
@@ -530,7 +539,7 @@ main {
     margin-bottom: auto;
     align-items: space-around;
 }
-.City-activities h1 {
+.City-activities h2 {
     margin: 0;
     width: 100%;
     margin-bottom: 20px;
