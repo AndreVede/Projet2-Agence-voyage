@@ -186,10 +186,20 @@ main {
     padding: 0;
 }
 .input-search button span.mobile {
-    font-size: 18px;
-    color: white;
-    margin: 16px 16px 16px 16px;
+    font-size: 0;
+    color: transparent;
+    margin: 0;
     padding: 0;
+    height: 0;
+    width: 0;
+}
+.input-search button span.mobile i {
+    font-size: 0;
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
 }
 .input-search input, .input-search input:focus{
     background-color: white;
@@ -627,3 +637,10 @@ footer section .link-list-footer{
 footer section .link-list-footer a {
     margin-bottom: 12px;
 }
+
+/* .input-search button span.mobile {
+    font-size: 18px;
+    color: white;
+    margin: 16px 16px 16px 16px;
+    padding: 0;
+} */
