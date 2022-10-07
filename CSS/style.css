@@ -515,16 +515,19 @@ main {
     justify-content: flex-start;
     align-content: space-around;
     align-items: baseline;
-    gap: auto;
 }
 .list-activities-City {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    
     width: 100%;
+    height: auto;
+
     margin-top: auto;
     margin-bottom: auto;
+    align-items: space-around;
 }
 .City-activities h1 {
     margin: 0;
