@@ -118,7 +118,6 @@ main {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow: none;
 }
 /* section search */
 .search {
@@ -206,7 +205,6 @@ main {
     margin: 0;
     margin-left: 12px;
     margin-top: 31px;
-    flex-flow: flex-start;
     flex-wrap: wrap;
     align-content: flex-start;
 }
@@ -439,7 +437,7 @@ main {
     margin: 0;
 }
 .content-popular .en-tete i {
-    font-size: 15.75;
+    font-size: 15.75px;
     color: var(--main-color);
 }
 .popular-list {
@@ -537,7 +535,8 @@ main {
 
     margin-top: auto;
     margin-bottom: auto;
-    align-items: space-around;
+    align-items: stretch;
+    column-gap: 10px;
 }
 .City-activities h2 {
     margin: 0;
