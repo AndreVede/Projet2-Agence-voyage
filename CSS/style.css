@@ -64,7 +64,7 @@ header {
     margin: 0px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 header nav ul {
     display: flex;
@@ -83,6 +83,9 @@ header nav ul li{
     margin-top: 0px;
     margin-bottom: 0;
     color: black;
+
+    border-top: solid transparent 2px;
+    border-bottom: solid transparent 2px;
 }
 header nav ul li:hover{
     border-top: solid var(--main-color) 2px;
@@ -239,7 +242,7 @@ main {
     color: var(--main-color);
     margin-right: 10px;
 }
-.filters li.active {
+.filters li:hover {
     background-color: var(--secondary-color);
 }
 
@@ -504,16 +507,27 @@ main {
 /* Activities */
 .City-activities {
     margin: 0;
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    align-items: baseline;
+    gap: auto;
 }
- .list-activities-City {
+.list-activities-City {
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
+    justify-content: space-around;
     flex-wrap: wrap;
- }
- .list-activities-City h1 {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.City-activities h1 {
     margin: 0;
-    align-self: flex-start;
     width: 100%;
 }
 /* Cartes */
@@ -522,8 +536,8 @@ main {
     margin: 0;
     background-color: #FFFFFF;
     border-radius: 20px;
-    height: 144px;
-    width: 343px;
+    height: 444.51px;
+    width: 302px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -540,4 +554,9 @@ main {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     margin: 0;
+}
+.card-activity .card-title {
+    margin-left: 19px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
