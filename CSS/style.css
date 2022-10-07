@@ -59,6 +59,25 @@ body {
     text-decoration: none;
     color: black;
 }
+.footer-title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: black;
+}
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
 
 /* Header */
 header {
@@ -113,6 +132,7 @@ main {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 15px;
+    margin-bottom: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -286,11 +306,11 @@ main {
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: stretch;
-    gap: 2.98507463%;
+    gap: 3%;
     margin-top: 39px;
 }
 .accommodations-City {
-    width: 65.67164179%;
+    width: 65%;
     background-color: var(--secondary-grey-color);
     border-radius: 20px;
     margin: 0;
@@ -310,7 +330,7 @@ main {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 23px;
-    width: 90.90909091%;
+    width: 91%;
 }
 .content-accommodations-City h2 {
     margin: 0;
@@ -338,8 +358,8 @@ main {
     margin: 0;
     background-color: #FFFFFF;
     border-radius: 20px;
-    height: 199px;
-    width: 246px;
+    height: 42%;
+    width: 28%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -351,7 +371,7 @@ main {
 }
 .accommodation-card img {
     height: 114px;
-    width: 95.93495935%;
+    width: auto;
     object-fit: cover;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
@@ -379,6 +399,7 @@ main {
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
+    height: auto;
 }
 .accommodation-card .text-card .bottom {
     margin-left: 16px;
@@ -402,8 +423,8 @@ main {
     color: var(--secondary-grey-color);
 }
 
-.popular-accomodations {
-    width: 31.34328358%;
+.popular-accommodations {
+    width: 32%;
     border-radius: 20px;
     background-color: var(--secondary-grey-color);
     display: flex;
@@ -422,7 +443,7 @@ main {
     align-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 90.90909091%;
+    width: 91%;
 }
 .content-popular .popular-list .en-tete {
     margin: 0;
@@ -441,7 +462,9 @@ main {
     color: var(--main-color);
 }
 .popular-list {
+    margin-left: 10px;
     height: 100%;
+    max-width: 343px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -456,7 +479,7 @@ main {
     background-color: #FFFFFF;
     border-radius: 20px;
     height: 144px;
-    width: 343px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -472,7 +495,7 @@ main {
     width: 100%;
 }
 .popular-card img {
-    width: 137px;
+    width: 39%;
     height: 134px;
     object-fit: cover;
     border: 5px solid #FFFFFF;
@@ -496,6 +519,7 @@ main {
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
+    width: 55%;
 }
 .popular-card .text-card .bottom {
     margin-left: 16px;
@@ -528,7 +552,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     
     width: 100%;
     height: auto;
@@ -547,10 +571,11 @@ main {
 
 .card-activity {
     margin: 0;
+    margin-bottom: 20px;
     background-color: #FFFFFF;
     border-radius: 20px;
     height: 444.51px;
-    width: 302px;
+    width: 22%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -563,7 +588,7 @@ main {
 }
 .card-activity img {
     height: 389px;
-    width: 302px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     margin: 0;
@@ -572,4 +597,33 @@ main {
     margin-left: 19px;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+/* Footer */
+footer {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    padding-bottom: 46px;
+    padding-right: 25%;
+    background-color: var(--secondary-grey-color);
+
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: baseline;
+}
+footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+footer section .link-list-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+footer section .link-list-footer a {
+    margin-bottom: 12px;
 }
