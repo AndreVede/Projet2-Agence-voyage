@@ -273,16 +273,17 @@ main {
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: center;
-    align-items: baseline;
+    align-items: stretch;
     gap: 2.98507463%;
+
+    height: 626px;
+    margin-top: 39px;
 }
 .accommodations-City {
     width: 65.67164179%;
-
     background-color: var(--secondary-grey-color);
     border-radius: 20px;
     margin: 0;
-    margin-top: 39px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -394,21 +395,21 @@ main {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: flex-start;
-    align-content: space-around;
-    justify-content: center;
+    align-content: stretch;
+    justify-content: flex-start;
 }
 .content-popular {
     margin-top: 42px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 23px;
     width: 90.90909091%;
 }
-.content-popular .en-tete {
+.content-popular .popular-list .en-tete {
     margin: 0;
     align-self: flex-start;
     width: 100%;
@@ -425,13 +426,14 @@ main {
     color: var(--main-color);
 }
 .popular-list {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     align-content: flex-start;
     justify-content: flex-start;
-    gap: 33px;
+    gap: 31px;
 }
 /* Cartes populaire */
 .popular-card {
