@@ -39,7 +39,7 @@ body {
 .information {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
 }
@@ -270,10 +270,13 @@ main {
     margin-bottom: 2px;
     cursor: pointer;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 .filters li.filter i {
     color: var(--main-color);
     margin-right: 10px;
+    font-size: 17px;
+    line-height: 20px;
 }
 .filters li:hover {
     background-color: var(--secondary-color);
@@ -717,54 +720,15 @@ footer section .link-list-footer a {
     }
 }
 /* Version Mobile */
-/* .input-search button span.mobile {
-    font-size: 18px;
-    color: white;
-    margin: 16px 16px 16px 16px;
-    padding: 0;
-} */
+
 @media all and (max-width: 767px){
-    body {
-        margin: 0;
-        max-width: 1400px;
-    }
     /* les fonts */
-    .card-title {
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-    }
-    .card-info {
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        margin-bottom: 9px;
-        margin-top: 9px;
-    }
-    .title-section {
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
-    }
-    .information {
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-    }
     .filter {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 17px;
-        line-height: 20px;
+        font-size: 11px;
+        line-height: 13px;
     }
     .knowing-more {
         font-family: 'Raleway', sans-serif;
@@ -896,105 +860,27 @@ footer section .link-list-footer a {
         cursor: pointer;
     }
     .input-search button span.not-mobile {
-        font-size: 18px;
-        color: white;
-        margin: 14px 1px 14px 16px;
+        font-size: 0;
+        color: transparent;
+        margin: 0;
         padding: 0;
+        height: 0;
+        width: 0;
     }
     .input-search button span.mobile {
-        font-size: 0;
-        color: transparent;
-        margin: 0;
+        font-size: 17px;
+        color: white;
+        margin: 16px 16px 16px 6px;
         padding: 0;
-        height: 0;
-        width: 0;
+        height: auto;
+        width: auto;
     }
     .input-search button span.mobile i {
-        font-size: 0;
-        color: transparent;
-        margin: 0;
-        padding: 0;
-        height: 0;
-        width: 0;
-    }
-    .input-search input, .input-search input:focus{
-        background-color: white;
-        border: 1px solid var(--secondary-grey-color);
-        outline: 1px solid var(--secondary-grey-color);
-        border-radius: 15px;
-        height: 49px;
-        width: 334px;
-        padding-left: 66px;
-    }
-    .input-search .before-input {
-        background: var(--secondary-grey-color);
-        height: 47px;
-        width: 50px;
-        border: 1px solid var(--secondary-grey-color);
-        border-radius: 15px 0px 0px 15px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        transform: translateX(47px);
-        margin-left: -47px;
-        font-size: 18px;
-    }
-    .input-search .before-input i {
-        padding: 16px 18px 15px 18px;
-    }
-    
-    /* filters */
-    .filters {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-        margin: 0;
-        margin-left: 12px;
-        margin-top: 31px;
-        flex-wrap: wrap;
-        align-content: flex-start;
-    }
-    .filters ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: 0px;
-        flex-wrap: wrap;
-        margin-left: -45px;
-    }
-    .filters label {
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 19px;
-        font-size: 18px;
-        margin: 0;
-        padding: 0;
-        margin-right: 32px;
-    }
-    .filters li {
-        list-style-type: none;
-        padding-top: 14.58px;
-        padding-bottom: 14.58px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: var(--grey-color) solid 2px;
-        border-radius: 25px;
-        margin-right: 14px;
-        margin-left: 0;
-        margin-top: 15px;
-        margin-bottom: 2px;
-        cursor: pointer;
-        flex-wrap: nowrap;
-    }
-    .filters li.filter i {
-        color: var(--main-color);
-        margin-right: 10px;
-    }
-    .filters li:hover {
-        background-color: var(--secondary-color);
-    }
-    
+        font-size: 17px;
+        color: white;
+        height: auto;
+        width: auto;
+    }    
     /* info résultats */
     .info-result {
         display: flex;
