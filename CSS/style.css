@@ -407,6 +407,7 @@ main {
     gap: 9px;
 }
 .accommodation-card .text-card {
+    margin: 4px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
