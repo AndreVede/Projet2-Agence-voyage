@@ -419,20 +419,20 @@ main {
     flex-direction: column;
     align-content: flex-start;
     align-items: flex-start;
-    margin-left: 16px;
     gap: 9px;
 }
 .accommodation-card .text-card {
-    margin: 4px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
     height: auto;
-}
-.accommodation-card .text-card .bottom {
-    margin-left: 16px;
+    width: 95%;
 }
 .accommodation-card .evaluation {
     display: flex;
