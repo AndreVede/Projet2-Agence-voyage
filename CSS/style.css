@@ -9,7 +9,7 @@
     --secondary-grey-color: #F2F2F2;
 }
 body {
-    margin: 0;
+    margin: auto;
     max-width: 1400px;
 }
 /* les fonts */
@@ -49,6 +49,8 @@ body {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .knowing-more {
     font-family: 'Raleway', sans-serif;
@@ -257,6 +259,7 @@ main {
     margin-right: 32px;
 }
 .filters li {
+    display: flex;
     list-style-type: none;
     padding-top: 14.58px;
     padding-bottom: 14.58px;
@@ -271,8 +274,9 @@ main {
     cursor: pointer;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
 }
-.filters li.filter i {
+.filters li i {
     color: var(--main-color);
     margin-right: 10px;
     font-size: 17px;
@@ -881,7 +885,11 @@ footer section .link-list-footer a {
         color: white;
         height: auto;
         width: auto;
-    }    
+    }
+    /* filtes */
+    .filters li i {
+        margin-right: 5px;
+    }
     /* info résultats */
     .info-result {
         display: flex;
